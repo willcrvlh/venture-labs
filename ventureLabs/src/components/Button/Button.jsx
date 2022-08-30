@@ -1,9 +1,9 @@
 import React from 'react'
 
-function Button(texto) {
+function Button() {
   return (
     <div>
-        <button onClick={handleClick}>{texto}</button>
+        <button>Próximo</button>
     </div>
   )
 }

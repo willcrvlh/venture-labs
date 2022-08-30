@@ -1,13 +1,8 @@
 import React from 'react'
-
+import S from './Home.module.css'
 function Home() {
   return (
-    <div>
-        <header>
-            <a className={S.a} href="" >cadastrar</a>
-            <a className={S.a} href="">clientes</a>
-        </header>
-    </div>
+    <div>Home</div>
   )
 }
 

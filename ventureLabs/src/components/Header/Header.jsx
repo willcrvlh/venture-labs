@@ -5,8 +5,8 @@ function Header() {
   return (
     <header className={S.header}>
         <nav>
-            <link to="/cadastro"/>
-            <link to="/cliente"/>
+            <a href="#">Cadastro</a>
+            <a href="#">Clientes</a>
         </nav>
     </header>
   )
